@@ -200,7 +200,7 @@ function Directory({
               <div className="flex gap-x-2">
                 <button
                   onClick={confirmNewFolder}
-                  className="text-sky-400 rounded-md text-sm font-bold hover:text-sky-500"
+                  className="text-orange-500 rounded-md text-sm font-bold hover:text-sky-500"
                 >
                   Create
                 </button>

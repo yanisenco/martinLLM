@@ -9,7 +9,7 @@ export default function Login() {
   const query = useQuery();
   const { loading, requiresAuth, mode } = usePasswordModal(!!query.get("nt"));
   if (loading) return <FullScreenLoader />;
-  if (requiresAuth === false) return <Navigate to={paths.home()} />;
+  if (requiresAuth === true) return <Navigate to={paths.home()} />;
 
   return <PasswordModal mode={mode} />;
 }

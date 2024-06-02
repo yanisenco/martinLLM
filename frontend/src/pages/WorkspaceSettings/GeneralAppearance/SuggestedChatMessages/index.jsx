@@ -126,7 +126,7 @@ export default function SuggestedChatMessages({ slug }) {
               key={index}
               onClick={(e) => startEditing(e, index)}
               className={`text-left p-2.5 border rounded-xl w-full border-white/20 bg-sidebar hover:bg-workspace-item-selected-gradient ${
-                editingIndex === index ? "border-sky-400" : ""
+                editingIndex === index ? "border-orange-500" : ""
               }`}
             >
               <p className="font-semibold">{suggestion.heading}</p>
@@ -167,7 +167,7 @@ export default function SuggestedChatMessages({ slug }) {
         <button
           type="button"
           onClick={addMessage}
-          className="flex gap-x-2 items-center justify-center mt-6 text-white text-sm hover:text-sky-400 transition-all duration-300"
+          className="flex gap-x-2 items-center justify-center mt-6 text-white text-sm hover:text-orange-500 transition-all duration-300"
         >
           Add new message <Plus className="" size={24} weight="fill" />
         </button>

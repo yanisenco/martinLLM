@@ -95,7 +95,7 @@ export default function NewIconForm({ icon, url, onSave, onRemove }) {
           {isEdited ? (
             <button
               type="submit"
-              className="text-sky-400 px-2 py-2 rounded-md text-sm font-bold hover:text-sky-500"
+              className="text-orange-500 px-2 py-2 rounded-md text-sm font-bold hover:text-sky-500"
             >
               Save
             </button>

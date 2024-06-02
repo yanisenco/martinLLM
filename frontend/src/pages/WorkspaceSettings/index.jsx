@@ -127,8 +127,8 @@ function TabItem({ title, icon, to, visible = true }) {
       className={({ isActive }) =>
         `${
           isActive
-            ? "text-sky-400 pb-4 border-b-[4px] -mb-[19px] border-sky-400"
-            : "text-white/60 hover:text-sky-400"
+            ? "text-orange-500 pb-4 border-b-[4px] -mb-[19px] border-orange-500"
+            : "text-white/60 hover:text-orange-500"
         } ` + " flex gap-x-2 items-center font-medium"
       }
     >

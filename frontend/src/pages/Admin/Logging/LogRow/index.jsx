@@ -85,7 +85,7 @@ const EventMetadata = ({ metadata, expanded = false }) => {
 };
 
 const EventBadge = ({ event }) => {
-  let colorTheme = { bg: "bg-sky-600/20", text: "text-sky-400 " };
+  let colorTheme = { bg: "bg-sky-600/20", text: "text-orange-500 " };
   if (event.includes("update"))
     colorTheme = { bg: "bg-yellow-600/20", text: "text-yellow-400 " };
   if (event.includes("failed_") || event.includes("deleted"))
