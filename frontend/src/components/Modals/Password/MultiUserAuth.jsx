@@ -281,7 +281,7 @@ export default function MultiUserAuth() {
                 <h3 className="text-md md:text-2xl font-bold text-white text-center white-space-nowrap hidden md:block">
                   Welcome to
                 </h3>
-                <p className="text-4xl md:text-2xl font-bold bg-gradient-to-r from-[#75D6FF] via-[#FFFFFF] to-[#FFFFFF] bg-clip-text text-transparent">
+                <p className="text-4xl md:text-2xl font-bold bg-gradient-to-r from-[#fb8800] via-[#FFFFFF] to-[#FFFFFF] bg-clip-text text-transparent">
                   {customAppName || "AnythingLLM"}
                 </p>
               </div>
@@ -297,7 +297,7 @@ export default function MultiUserAuth() {
                   name="username"
                   type="text"
                   placeholder="Username"
-                  className="bg-zinc-900 text-white placeholder-white/20 text-sm rounded-md p-2.5 w-full h-[48px] md:w-[300px] md:h-[34px]"
+                  className="bg-zinc-900 text-white placeholder-white/80 sm:placeholder-white/20 text-sm rounded-md p-2.5 w-full h-[48px] md:w-[300px] md:h-[34px]"
                   required={true}
                   autoComplete="off"
                 />
@@ -307,7 +307,7 @@ export default function MultiUserAuth() {
                   name="password"
                   type="password"
                   placeholder="Password"
-                  className="bg-zinc-900 text-white placeholder-white/20 text-sm rounded-md p-2.5 w-full h-[48px] md:w-[300px] md:h-[34px]"
+                  className="bg-zinc-900 text-white placeholder-white/80 sm:placeholder-white/20 text-sm rounded-md p-2.5 w-full h-[48px] md:w-[300px] md:h-[34px]"
                   required={true}
                   autoComplete="off"
                 />

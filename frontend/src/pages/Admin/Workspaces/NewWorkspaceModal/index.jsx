@@ -66,7 +66,7 @@ export default function NewWorkspaceModal({ closeModal }) {
             </button>
             <button
               type="submit"
-              className="transition-all duration-300 border border-slate-200 px-4 py-2 rounded-lg text-white text-sm items-center flex gap-x-2 hover:bg-slate-200 hover:text-slate-800 focus:ring-gray-800"
+              className="transition-all duration-300 md:text-[#fb8800] md:bg-transparent text-white focus:outline-none rounded-md border-[1.5px] border-[#fb8800] text-sm md:hover:text-white md:hover:bg-[#fb8800] bg-[#fb8800] -mr-8 whitespace-nowrap shadow-[0_4px_14px_rgba(0,0,0,0.25)] w-fit px-4 py-2"
             >
               Create workspace
             </button>

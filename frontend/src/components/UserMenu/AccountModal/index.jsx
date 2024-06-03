@@ -158,7 +158,7 @@ export default function AccountModal({ user, hideModal }) {
             </button>
             <button
               type="submit"
-              className="px-4 py-2 rounded-lg text-white bg-transparent border border-slate-200 hover:bg-slate-200 hover:text-slate-800"
+              className="transition-all duration-300 md:text-[#fb8800] md:bg-transparent text-white focus:outline-none rounded-md border-[1.5px] border-[#fb8800] text-sm md:hover:text-white md:hover:bg-[#fb8800] bg-[#fb8800] shadow-[0_4px_14px_rgba(0,0,0,0.25)] w-fit px-4 py-2"
             >
               Update Account
             </button>
