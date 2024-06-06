@@ -5,10 +5,12 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
+RUN yarn install
 
 COPY . .
 
-EXPOSE 3000
+RUN yarn upgrade langsmith
 
-CMD [ "npm", "run", "dev:collector" ]
+EXPOSE 8888
+
+CMD [ "npm", "run", "dev" ]
