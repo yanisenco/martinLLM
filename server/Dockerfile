@@ -1,14 +1,14 @@
 # Dockerfile
-FROM node:18
+FROM node:lts-buster-slim AS development
 
 WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm install --legacy-peer-deps
 
-COPY . .
+COPY --chown=node:node . .
 
 EXPOSE 3001
 
-CMD [ "npm", "run", "dev:server" ]
+CMD [ "npm", "run", "dev" ]

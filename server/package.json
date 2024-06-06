@@ -95,6 +95,8 @@
     "globals": "^13.21.0",
     "hermes-eslint": "^0.15.0",
     "nodemon": "^2.0.22",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "cross-env": "^7.0.3",
+    "shx": "^0.3.4"
   }
 }
