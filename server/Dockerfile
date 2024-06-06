@@ -3,12 +3,12 @@ FROM node:lts-buster-slim AS development
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY package*.json yarn.lock ./
 
-RUN npm install --legacy-peer-deps
+RUN yarn install --legacy-peer-deps
 
 COPY --chown=node:node . .
 
 EXPOSE 3001
 
-CMD [ "npm", "run", "dev" ]
+CMD [ "yarn", "run", "dev" ]
