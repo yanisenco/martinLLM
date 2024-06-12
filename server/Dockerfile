@@ -18,4 +18,4 @@ RUN yarn add bcrypt
 
 EXPOSE 3001
 
-CMD [ "yarn", "run", "dev" ]
+CMD [ "yarn", "run", "start" ]
